@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Usuario]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Login] VARCHAR(50) NOT NULL, 
+    [Senha] VARCHAR(50) NOT NULL, 
+    [ApiKey] VARCHAR(200) NULL, 
+    [ApiToken] VARCHAR(200) NULL
+)
